@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+}
+
+/* Mobible Screen */
+@media screen and (max-width: 767px) {
+
+}
+
+/* Tablet Screen*/
+@media screen and (min-width: 768px) {
+
+}
+
+/* Web Screen */
+@media screen and (min-width: 1200px) {
+
+}
+
+/*Start Header */
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: end;
+    padding: 30px 0px;
+}
+
+.header-nav ul {
+    word-spacing: 22px;
+    font-size: 18px;
+    font-family : 'Montserrat', sans-serif;
+    letter-spacing: 0px;
+    color: #1C1C1D;
+    opacity: 1;
+}
+
+.header-nav li {
+    display: inline-block;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: #1C1C1D;
+}
+
+.header-btn-cont {
+    width: 213px;
+    height: 42px;
+    border-radius: 15px;
+    background: #10DFC2;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FBFBFB;
+    border-color: transparent;
+}
+
+.header-btn-cont:hover {
+    cursor: pointer;
+}
+/* FInal Header */
+
+
+
+/* Start Advertising Rocket Talents */
+.advertising {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 503px;
+    background: url('../images/Background.png');
+}
+
+.advertising-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+}
+
+.advertising-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: white;
+    text-align: left;
+}
+
+.advertising-title-GX2 {
+    width: 35%;
+}
+
+.dvertising-imgs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.adv-img img {
+    display: flex;
+    padding: 2px;
+    width: auto;
+    height: auto;
+}
