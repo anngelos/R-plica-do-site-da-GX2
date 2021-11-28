@@ -3,21 +3,43 @@
   <head>
     <title>GX2</title>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/menu-mobile.css">
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="./css/menu-mobile.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"/>
   </head>
   <body>
+
+
+    <div class="topnav mobile-menu">
+      <div class="mobile-Logo">
+        <img src="./images/logo--gx2.png" alt="Logo da GX2">
+      </div>
+      <div class="links" id="myLinks">
+        <a href="#">Soluções</a>
+        <a href="#">Cases</a>
+        <a href="#">Carreira</a>
+        <a href="#">Blog</a>
+        <a href="#">Sobre</a>
+        <a href="#">Contato</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+
+
+
+
     <header class="header">
       <div class="header-logo">
         <img src="./images/logo--gx2.png" alt="Logo da GX2" />
       </div>
-
       <nav class="header-nav">
         <ul>
           <li><a href="#"><b>Soluções</b></a></li>
@@ -27,12 +49,10 @@
           <li><a href="#"><b>Sobre</b></a></li>
         </ul>
       </nav>
-
       <button class="header-btn-cont">Contato</button>
     </header>
 
     <div class="content">
-      
       <div class="advertising">
         <div class="advertising-title-GX2">
           <div class="advertising-gx2-small">
@@ -236,8 +256,9 @@
             <span class="footer-gps-info">+55 31 3555.3363 | Av. do Contorno 6594 / 7ºandar Bairro Savassi</span>
           </div>
         </div>
-
       </div>
     </div>
+    
+    <script src="./scripts/script.js"></script>
   </body>
 </html>

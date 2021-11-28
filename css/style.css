@@ -1,472 +1,513 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
 /* Mobible Screen */
 @media screen and (max-width: 767px) {
-
-}
-
-/* Tablet Screen*/
-@media screen and (min-width: 768px) {
-
-}
-
-/* Web Screen */
-@media screen and (min-width: 1100px) {
-
-
-  /*Start Header */
   .header {
-      display: flex;
-      width: 100%;
-      justify-content: space-around;
-      align-items: end;
-      padding: 30px 0px;
+    display: none;
   }
-
-  .header-nav ul {
-      word-spacing: 22px;
-      font-size: 18px;
-      font-family : 'Montserrat', sans-serif;
-      letter-spacing: 0px;
-      color: #1C1C1D;
-      opacity: 1;
-  }
-
-  .header-nav li {
-      display: inline-block;
-  }
-
-  .header-nav a {
-      text-decoration: none;
-      color: #1C1C1D;
-  }
-
-  .header-btn-cont {
-      width: 213px;
-      height: 42px;
-      border-radius: 15px;
-      background: #10DFC2;
-      font-size: 18px;
-      font-family: 'Montserrat', sans-serif;
-      color: #FBFBFB;
-      border-color: transparent;
-  }
-
-  .header-btn-cont:hover {
-      cursor: pointer;
-  }
-  /* FInal Header */
-
-
 
   /* Start Advertising Rocket Talents */
   .advertising {
-      display: flex;
-      padding: 0 80px;
-      justify-content: space-around;
-      align-items: center;
-      height: 503px;
-      background: url('../images/Background.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: url("../images/Background.png");
+    padding-bottom: 50px;
   }
 
   .advertising-title {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 40px;
-      color: white;
-      font-weight: bold;
-      text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    text-align: left;
   }
 
   .advertising-text {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 18px;
-      color: white;
-      text-align: left;
-      width: 70%;
-      line-height: 1.8;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: left;
+    width: 70%;
   }
 
   .advertising-title-GX2 {
-      margin-left: 50px;
-      width: 49%;
+    margin-left: 50px;
+    width: 49%;
+    margin-top: 20px;
   }
 
   .advertising-gx2-small {
-      margin-top: 15px;
+    margin-top: 15px;
   }
 
   .advertising-imgs {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .advertising-img-rocket img {
+    margin-top: 30px;
+    width: 100px;
+  }
+
+  .advertising-img-rt img {
+    margin-top: 10px;
+    width: 200px;
+  }
+  /* Final Advertising Rocket Talents */
+}
+
+
+
+/* Tablet Screen*/
+@media screen and (min-width: 768px) {}
+
+
+
+/* Web Screen */
+@media screen and (min-width: 1100px) {
+  .mobile-menu {
+    display: none;
+  }
+
+  /*Start Header */
+  .header {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: end;
+    padding: 30px 0px;
+  }
+
+  .header-nav ul {
+    word-spacing: 22px;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0px;
+    color: #1c1c1d;
+    opacity: 1;
+  }
+
+  .header-nav li {
+    display: inline-block;
+  }
+
+  .header-nav a {
+    text-decoration: none;
+    color: #1c1c1d;
+  }
+
+  .header-btn-cont {
+    width: 213px;
+    height: 42px;
+    border-radius: 15px;
+    background: #10dfc2;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    color: #fbfbfb;
+    border-color: transparent;
+  }
+
+  .header-btn-cont:hover {
+    cursor: pointer;
+  }
+  /* FInal Header */
+
+  /* Start Advertising Rocket Talents */
+  .advertising {
+    display: flex;
+    padding: 0 80px;
+    justify-content: space-around;
+    align-items: center;
+    height: 503px;
+    background: url("../images/Background.png");
+  }
+
+  .advertising-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  .advertising-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: white;
+    text-align: left;
+    width: 70%;
+    line-height: 1.8;
+  }
+
+  .advertising-title-GX2 {
+    margin-left: 50px;
+    width: 49%;
+  }
+
+  .advertising-gx2-small {
+    margin-top: 15px;
+  }
+
+  .advertising-imgs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
   }
 
   .advertising-img-rocket {
-      margin-bottom: 70px;
+    margin-bottom: 70px;
   }
   /* Final Advertising Rocket Talents */
 
   /* Start Rocket Talents About */
   .rt-about {
-      display: flex;
-      width: 100%;
-      justify-content: space-around;
-      align-items: center;
-      padding-top: 50px;
-      padding-bottom: 60px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 60px;
   }
 
   .rt-about-description {
-      display: flex;
-      flex-direction: column;
+    display: flex;
+    flex-direction: column;
   }
 
   .rt-about-title {
-      width: 60%;
-      font: normal normal bold 32px/41px Montserrat;
-      letter-spacing: 0px;
-      color: #032624;
-      opacity: 1;
+    width: 60%;
+    font: normal normal bold 32px/41px Montserrat;
+    letter-spacing: 0px;
+    color: #032624;
+    opacity: 1;
   }
 
   .rt-about-label {
-      font: normal normal normal 16px/23px Montserrat;
-      letter-spacing: 0px;
-      color: #032624;
+    font: normal normal normal 16px/23px Montserrat;
+    letter-spacing: 0px;
+    color: #032624;
   }
 
   .rt-about-label-bold {
-      font: normal normal bold 16px/23px Montserrat;
-      letter-spacing: 0px;
-      color: #032624;
+    font: normal normal bold 16px/23px Montserrat;
+    letter-spacing: 0px;
+    color: #032624;
   }
 
   .rt-about-future {
-      font: normal normal 600 16px/23px Montserrat;
-      letter-spacing: 0px;
-      color: #0EAFAC;
-      opacity: 1;
+    font: normal normal 600 16px/23px Montserrat;
+    letter-spacing: 0px;
+    color: #0eafac;
+    opacity: 1;
   }
   /* Final Rocket Talents About */
 
-
-
   /* Start How It Works */
   .content-how-it-works {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 100%;
-      background: #F6F6F6 0% 0% no-repeat padding-box;
-      opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: #f6f6f6 0% 0% no-repeat padding-box;
+    opacity: 1;
   }
 
   .content-how-it-works-main {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
   }
 
   .content-how-it-works-title {
-      font: normal normal bold 32px/41px Montserrat;
-      letter-spacing: 0px;
-      color: #0EAFAC;
-      opacity: 1;
+    font: normal normal bold 32px/41px Montserrat;
+    letter-spacing: 0px;
+    color: #0eafac;
+    opacity: 1;
   }
 
   .content-how-it-works-info {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
   }
 
   .content-hiw-label {
-      display: flex;
-      align-items: center;
+    display: flex;
+    align-items: center;
   }
 
   .content-hiw-label span:nth-child(2) {
-      padding-left: 6px;
+    padding-left: 6px;
   }
   /* Final How It Works */
 
-
-
   /* Style Cards */
   .content-cards {
-      display: flex;
-      justify-content: space-around;
-      width: 100%;
-      padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-bottom: 50px;
   }
 
   .content-small-cards {
-      background: #FFFFFF 0% 0% no-repeat padding-box;
-      box-shadow: 0px 0px 10px #00000029;
-      border-radius: 5px;
-      opacity: 1;
-      padding: 20px;
-      width: 200px;
-      height: 250px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 10px #00000029;
+    border-radius: 5px;
+    opacity: 1;
+    padding: 20px;
+    width: 200px;
+    height: 250px;
   }
   /* Final Style Cards */
 
-
-
   /* Start Content Requirements and Details */
   .content-reqdet {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 100%;
-      background: #FFFFFF;
-      padding-top: 100px;
-      padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 
   .content-reqdet-womancard img {
-      padding: 0px 50px;
+    padding: 0px 50px;
   }
 
   .content-reqdet-mancard img {
-      padding: 0px 50px;
+    padding: 0px 50px;
   }
 
   .content-reqdet-man-list {
-      padding-left: 100px;
+    padding-left: 100px;
   }
 
   .content-reqdet-mancard ul {
-      width: 65%;
+    width: 65%;
   }
 
   .content-reqdet-womancard {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      width: 100%;
-      padding-bottom: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 120px;
   }
 
   .content-reqdet-mancard {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
   }
   /* Final Content Requirements and Details */
 
-
-
   /* Start Content News */
   .content-news {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      width: 100%;
-      background: #19DBD1 0% 0% no-repeat padding-box;
-      opacity: 1;
-      padding-top: 50px;
-      padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background: #19dbd1 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .content-news-texts {
-      display: flex;
-      flex-direction: column;
-      margin-top: -35px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -35px;
   }
 
-
   .content-news-sign {
-      display: flex;
-      justify-content: space-around;
-      flex-direction:column;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
   }
 
   .content-news-sign button {
-      margin-top: 17px;
+    margin-top: 17px;
   }
-
-
 
   /* Start Texts, input and button Content News */
   .content-news-title {
-      font: normal normal bold 32px/41px Montserrat;  
-      letter-spacing: 0px;
-      color: #FFFFFF;
-      opacity: 1;
+    font: normal normal bold 32px/41px Montserrat;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
   }
 
   .content-news-sub {
-      font: normal normal normal 16px/23px Montserrat;
-      letter-spacing: 0px;
-      color: #FFFFFF;
-      opacity: 1;
-      margin-top: -10px;
+    font: normal normal normal 16px/23px Montserrat;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    margin-top: -10px;
   }
 
   .content-news-email {
-      font: normal normal 600 16px/23px Montserrat;
-      letter-spacing: 0px;
-      color: #FFFFFF;
-      opacity: 1;
+    font: normal normal 600 16px/23px Montserrat;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
   }
 
   .content-news-sign input {
-      background: #FFFFFF 0% 0% no-repeat padding-box;
-      border-radius: 10px;
-      opacity: 1;
-      width: 300px;
-      height: 35px;
-      border-color: transparent;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    width: 300px;
+    height: 35px;
+    border-color: transparent;
   }
 
   .content-news-sign-btn {
-      width: 100px;
-      height: 35px;
-      font: normal normal 600 16px/23px Montserrat;
-      letter-spacing: 0px;
-      color: #FFFFFF;
-      background: #FFB900 0% 0% no-repeat padding-box;
-      border-radius: 10px;
-      opacity: 1;
-      border-color: transparent;
+    width: 100px;
+    height: 35px;
+    font: normal normal 600 16px/23px Montserrat;
+    letter-spacing: 0px;
+    color: #ffffff;
+    background: #ffb900 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    border-color: transparent;
   }
   /* Final Texts, input and button Content News */
 
-
-
   /* Start Footer */
   .footer {
-      display: flex;
-      justify-content: space-around;
-      width: 100%;
-      background: #04254C;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background: #04254c;
   }
 
   .footer-gx2 {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      width: 36%;
-      padding: 50px 0px 0px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 36%;
+    padding: 50px 0px 0px 100px;
   }
 
   .footer-services {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      width: 20%;
-      padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 20%;
+    padding-top: 30px;
   }
 
   .footer-gps {
-      display: flex;
-      flex-direction: column;
-      padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
   }
 
   .footer-gps-icon {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      background-color: #FFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ffff;
   }
 
   .footer-gps-img {
-      width: 25px;
-      height: 25px;
+    width: 25px;
+    height: 25px;
   }
 
   .footer-gps-place {
-      display: flex;
-      align-items: center;
-      justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .footer-gps-texts {
-      display: flex;
-      flex-direction: column;
-      width: 50%;
-      padding-left: 40px;
-      margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 40px;
+    margin-top: 20px;
   }
 
   /* Final Footer */
 
-
-
   /* Start Texts/Button Footer */
   .footer-gx2-title {
-      display: flex;
-      width: 55%;
-      font: normal normal 600 16px/23px Montserrat;
-      letter-spacing: 0px;
-      color: #FFFFFF;
-      opacity: 1;
+    display: flex;
+    width: 55%;
+    font: normal normal 600 16px/23px Montserrat;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
   }
 
   .footer-gx2-subtitle {
-      display: flex;
-      width: 70%;
-      font: normal normal normal 16px/23px Montserrat;
-      letter-spacing: 0px;
-      color: #FFFFFF;
-      opacity: 1;
+    display: flex;
+    width: 70%;
+    font: normal normal normal 16px/23px Montserrat;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
   }
 
   .footer-gx2 button {
-      width: 181px;
-      height: 35px;
-      background: #FFB900 0% 0% no-repeat padding-box;
-      border-radius: 10px;
-      opacity: 1;
-      font: normal normal 600 16px/23px Montserrat;
-      letter-spacing: 0px;
-      color: #FFFFFF;
+    width: 181px;
+    height: 35px;
+    background: #ffb900 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    font: normal normal 600 16px/23px Montserrat;
+    letter-spacing: 0px;
+    color: #ffffff;
   }
 
   .footer-services-title {
-      font: normal normal 600 24px/23px Montserrat;
-      letter-spacing: 0px;
-      color: #FFFFFF;
-      opacity: 1;
+    font: normal normal 600 24px/23px Montserrat;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
   }
 
   .footer-services-list {
-      display: flex;
-      flex-direction: column;
-      font: normal normal normal 16px/23px Montserrat;
-      letter-spacing: 0px;
-      color: #FFFFFF;
-      opacity: 1;
+    display: flex;
+    flex-direction: column;
+    font: normal normal normal 16px/23px Montserrat;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
   }
 
   .footer-services-list span {
-      line-height: 2.5em;
+    line-height: 2.5em;
   }
 
   .footer-gps-city {
-      font: normal normal 600 16px/23px Montserrat;
-      letter-spacing: 0px;
-      color: #FFFFFF;
-      opacity: 1;
-      padding-bottom: 10px;
+    font: normal normal 600 16px/23px Montserrat;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    padding-bottom: 10px;
   }
 
   .footer-gps-info {
-      font: normal normal normal 16px/23px Montserrat;
-      color: #FFFFFF;
-      opacity: 1;
+    font: normal normal normal 16px/23px Montserrat;
+    color: #ffffff;
+    opacity: 1;
   }
   /* Final Texts/Button Footer*/
 }
-

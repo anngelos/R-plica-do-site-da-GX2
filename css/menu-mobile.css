@@ -1,0 +1,42 @@
+ /* Style the navigation menu */
+ .topnav {
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+    font: normal normal 600 16px/23px Montserrat;
+  }
+
+  .mobile-Logo {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: black;
+    padding: 16px 17px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: rgba(128, 128, 128, 0.438);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
