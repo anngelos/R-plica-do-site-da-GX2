@@ -127,6 +127,8 @@ body {
     align-items: center;
     height: 503px;
     background: url("../images/Background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .advertising-title {
